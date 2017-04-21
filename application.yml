@@ -1,0 +1,8 @@
+ip:
+  host: 10.47.17.240
+  guest: 10.47.18.107
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:123456@${ip.guest}:8010/eureka/,http://admin:123456@${ip.guest}:8011/eureka/,http://admin:123456@${ip.host}:8012/eureka/
