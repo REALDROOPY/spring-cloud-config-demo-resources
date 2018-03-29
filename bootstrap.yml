@@ -1,8 +1,8 @@
-myenv:
-  hostname: docker.dr.org
+#myenv:
+#  hostname: docker.dr.org
 
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://${myenv.hostname}:8010/eureka/,http://${myenv.hostname}:8011/eureka/,http://${myenv.hostname}:8012/eureka/
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://${myenv.hostname}:8010/eureka/,http://${myenv.hostname}:8011/eureka/,http://${myenv.hostname}:8012/eureka/
 
