@@ -6,9 +6,3 @@ eureka:
     serviceUrl:
       defaultZone: http://${myenv.hostname}:8010/eureka/,http://${myenv.hostname}:8011/eureka/,http://${myenv.hostname}:8012/eureka/
 
-spring:
-  cloud:
-    config:      
-      discovery:
-        enabled: true
-        serviceId: config-server
